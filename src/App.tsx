@@ -1,4 +1,5 @@
 import './App.css'
+import Hero from '../components/Hero'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       </div>
 
       <div className='app'>
-        {/* <Hero /> */}
+        <Hero/>
         {/* <Demo /> */}
       </div>
     </main>
