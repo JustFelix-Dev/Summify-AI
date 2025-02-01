@@ -1,5 +1,7 @@
 import './App.css'
 import Hero from '../components/Hero'
+import Summarise from '../components/Summarise'
+
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
 
       <div className='app'>
         <Hero/>
+        <Summarise/>
         {/* <Demo /> */}
       </div>
     </main>
